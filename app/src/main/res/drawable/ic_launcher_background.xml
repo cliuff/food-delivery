@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/ic_launcher_background_a"/>
-    <item android:drawable="@drawable/ic_launcher_background_b"/>
+    <item>
+        <shape>
+            <solid android:color="#FFFFFFFF"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:angle="45"
+                android:startColor="#FF0000FF"
+                android:endColor="#00FFFFFF"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:angle="225"
+                android:type="linear"
+                android:startColor="#FFD0D0FF"
+                android:endColor="#00FFFFFF"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:angle="135"
+                android:startColor="#FF0079C3"
+                android:endColor="#00FFFFFF"/>
+        </shape>
+    </item>
 </layer-list>
