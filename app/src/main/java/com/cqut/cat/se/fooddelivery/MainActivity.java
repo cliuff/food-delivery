@@ -1,11 +1,9 @@
 package com.cqut.cat.se.fooddelivery;
 
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -110,11 +108,8 @@ public class MainActivity extends GeneralActivity implements BottomNavigationVie
         // 当前显示的页面
         currentFragment = fragment;
 
-        Menu menu = mViews.mainToolbar.getMenu();
-        // 清除工具栏选项
-        menu.clear();
         final MainPage page = (MainPage) fragment;
-        page.onPageVisible(mViews.mainToolbar);
+        page.onPageVisible();
 
         return true;
     }
@@ -131,7 +126,7 @@ public class MainActivity extends GeneralActivity implements BottomNavigationVie
          * 切换至当前页面
          * 应当更新标题和工具栏选项
          */
-        void onPageVisible(Toolbar toolbar);
+        void onPageVisible();
 
         /**
          * 当前页面时，单击 tab

@@ -2,7 +2,7 @@
 <resources>
     <color name="defaultPrimary">#FF0079C3</color>
     <color name="defaultSecondary">#FF0079C3</color>
-    <color name="defaultBackground">#FFFFFFFF</color>
+    <color name="defaultBackground">#FFF5F5F5</color>
     <color name="defaultSurface">#FFFFFFFF</color>
     <color name="defaultError">#FFB00020</color>
     <color name="defaultOnPrimary">#FF000000</color>

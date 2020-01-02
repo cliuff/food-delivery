@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.Toolbar;
 
 import com.cqut.cat.se.fooddelivery.databinding.FragmentHomeBinding;
 import com.cqut.cat.se.fooddelivery.diy.GeneralActivity;
@@ -30,10 +29,12 @@ public class HomeFragment extends GeneralFragment implements MainActivity.MainPa
 
     @Override
     protected void consumeInsets(GeneralActivity.WindowInsets insets) {
+        ViewGroup container = mViews.homeContainer.findViewById(R.id.mainTopContainer);
+        container.setPadding(container.getPaddingStart(), insets.top, container.getPaddingEnd(), container.getPaddingBottom());
     }
 
     @Override
-    public void onPageVisible(Toolbar toolbar) {
+    public void onPageVisible() {
     }
 
     @Override

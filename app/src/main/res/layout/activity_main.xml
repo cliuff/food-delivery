@@ -6,13 +6,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/mainToolbar"
-            app:title="@string/app_name"
-            android:background="?mColorSurface"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
         <FrameLayout
             android:id="@+id/mainFragmentContainer"
             android:layout_width="match_parent"
@@ -23,6 +16,7 @@
             android:id="@+id/mainBottomNav"
             app:menu="@menu/main_bottom_nav"
             app:backgroundTint="?mColorSurface"
+            app:labelVisibilityMode="labeled"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>

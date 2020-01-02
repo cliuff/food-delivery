@@ -2,10 +2,11 @@
 
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:windowLightStatusBar">true</item>
+<!--        <item name="android:windowLightStatusBar">true</item>-->
         <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
         <!-- 防止自动弹出键盘 防止键盘遮挡输入控件 -->
         <item name="android:windowSoftInputMode">stateHidden|adjustPan</item>
+        <item name="android:windowBackground">?mColorBackground</item>
 
         <item name="colorPrimary">@color/defaultPrimary</item>
         <item name="colorPrimaryDark">@color/defaultPrimary</item>
@@ -37,6 +38,24 @@
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!--    以单个 View(Switch, TextView) 实现的“选项”控件-->
+    <style name="AppTheme.SimpleOption">
+        <item name="android:textColor">?mColorOnSurface</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">@dimen/optionPaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/optionPaddingVertical</item>
+        <item name="android:paddingStart">@dimen/optionPaddingHorizontal</item>
+        <item name="android:paddingEnd">@dimen/optionPaddingHorizontal</item>
+        <item name="android:drawableEnd">@drawable/ic_arrow_forward_24</item>
+        <item name="android:drawablePadding">13dp</item>
+        <item name="android:drawableTint">#FF909090</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:background">?mColorSurface</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
 </resources>
