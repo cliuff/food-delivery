@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="defaultPrimary">#FF0079C3</color>
+    <color name="defaultSecondary">#FF0079C3</color>
+    <color name="defaultBackground">#FFFFFFFF</color>
+    <color name="defaultSurface">#FFFFFFFF</color>
+    <color name="defaultError">#FFB00020</color>
+    <color name="defaultOnPrimary">#FF000000</color>
+    <color name="defaultOnSecondary">#FF000000</color>
+    <color name="defaultOnBackground">#FF000000</color>
+    <color name="defaultOnSurface">#FF000000</color>
+    <color name="defaultOnError">#FFFFFFFF</color>
+    <color name="defaultTextSub">#FF757575</color>
+    <color name="defaultText">#FF000000</color>
+    <color name="defaultPrimaryVBack">#0D0079C3</color>
+</resources>

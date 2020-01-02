@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="mColorPrimary" format="color"/>
+    <attr name="mColorSecondary" format="color"/>
+    <attr name="mColorBackground" format="color"/>
+    <attr name="mColorSurface" format="color"/>
+    <attr name="mColorError" format="color"/>
+    <attr name="mColorOnPrimary" format="color"/>
+    <attr name="mColorOnSecondary" format="color"/>
+    <attr name="mColorOnBackground" format="color"/>
+    <attr name="mColorOnSurface" format="color"/>
+    <attr name="mColorOnError" format="color"/>
+    <attr name="mColorTextSub" format="color"/>
+
+    <attr name="mColorText" format="color"/>
+    <attr name="mColorPrimaryVBack" format="color"/>
+</resources>

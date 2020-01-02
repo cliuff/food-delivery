@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <!-- 防止自动弹出键盘 防止键盘遮挡输入控件 -->
+        <item name="android:windowSoftInputMode">stateHidden|adjustPan</item>
+
+        <item name="colorPrimary">@color/defaultPrimary</item>
+        <item name="colorPrimaryDark">@color/defaultPrimary</item>
+        <item name="colorAccent">@color/defaultPrimary</item>
+
+        <item name="mColorPrimary">@color/defaultPrimary</item>
+        <item name="mColorSecondary">@color/defaultSecondary</item>
+        <item name="mColorBackground">@color/defaultBackground</item>
+        <item name="mColorSurface">@color/defaultSurface</item>
+        <item name="mColorError">@color/defaultError</item>
+        <item name="mColorOnPrimary">@color/defaultOnPrimary</item>
+        <item name="mColorOnSecondary">@color/defaultOnSecondary</item>
+        <item name="mColorOnBackground">@color/defaultOnBackground</item>
+        <item name="mColorOnSurface">@color/defaultOnSurface</item>
+        <item name="mColorOnError">@color/defaultOnError</item>
+        <item name="mColorTextSub">@color/defaultTextSub</item>
+        <item name="mColorText">@color/defaultText</item>
+        <item name="mColorPrimaryVBack">@color/defaultPrimaryVBack</item>
+    </style>
+
+    <style name="AppTheme.FullScreenDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="colorAccent">@color/defaultPrimary</item>
+        <item name="colorPrimary">@color/defaultPrimary</item>
+        <item name="colorPrimaryDark">@color/defaultPrimary</item>
+        <item name="android:windowBackground">@color/defaultBackground</item>
+        <item name="actionMenuTextColor">@color/defaultPrimary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+</resources>
