@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:icon="@drawable/ic_home_24"
+        android:title="首页"
+        android:id="@+id/mainBottomNavHome"
+        app:showAsAction="ifRoom"/>
+
+    <item android:icon="@drawable/ic_explore_24"
+        android:title="发现"
+        android:id="@+id/mainBottomNavExplore"
+        app:showAsAction="ifRoom"/>
+
+    <item android:icon="@drawable/ic_assignment_24"
+        android:title="订单"
+        android:id="@+id/mainBottomNavOrders"
+        app:showAsAction="ifRoom"/>
+
+    <item android:icon="@drawable/ic_person_24"
+        android:title="我的"
+        android:id="@+id/mainBottomNavMore"
+        app:showAsAction="ifRoom"/>
+</menu>
