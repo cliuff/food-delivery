@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        android:background="@drawable/main_search_back"
+        android:backgroundTint="?mColorSurface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/adapterOrderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?mColorOnSurface"
+            android:textSize="20sp"
+            android:drawableStart="@drawable/ic_assignment_24"
+            android:drawableTint="?mColorPrimary"
+            android:drawablePadding="5dp"
+            tools:text="华莱士全家桶" />
+
+        <TextView
+            android:id="@+id/adapterOrderTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="2020.01.02" />
+
+        <TextView
+            android:id="@+id/adapterOrderPrice"
+            android:textColor="?mColorOnSurface"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="¥ 52" />
+    </LinearLayout>
+</layout>

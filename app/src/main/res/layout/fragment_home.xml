@@ -7,5 +7,10 @@
         android:layout_height="match_parent">
 
         <include layout="@layout/main_top"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/homeRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 </layout>
